@@ -98,3 +98,49 @@ body {
     background: transparent;
     color: #333;
 }
+
+/* For devices with a maximum width of 768px (tablets and small desktops) */
+
+@media (max-width: 768px) {
+    .quote-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .quote-box h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .quote-box blockquote {
+        font-size: 22px;
+    }
+
+    .quote-box button {
+        width: 130px;
+        height: 45px;
+    }
+}
+
+/* For devices with a maximum width of 480px (mobile phones) */
+
+@media (max-width: 480px) {
+    .quote-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .quote-box h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .quote-box blockquote {
+        font-size: 18px;
+    }
+
+    .quote-box button {
+        width: 120px;
+        height: 40px;
+    }
+}
